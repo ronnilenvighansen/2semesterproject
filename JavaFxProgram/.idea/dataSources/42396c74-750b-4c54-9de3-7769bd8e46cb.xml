@@ -1,0 +1,112 @@
+<dataSource name="MySQL - Test@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="test">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="information_schema" />
+    <schema id="3" name="mysql" />
+    <schema id="4" name="performance_schema" />
+    <schema id="5" name="sakila" />
+    <schema id="6" name="sys" />
+    <schema id="7" name="world" />
+    <table id="8" parent="1" name="items" />
+    <table id="9" parent="1" name="juliestable" />
+    <table id="10" parent="1" name="numbers" />
+    <table id="11" parent="1" name="product" />
+    <column id="12" parent="8" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="13" parent="8" name="column02">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <column id="14" parent="8" name="column03">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <key id="15" parent="8" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="16" parent="9" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="17" parent="9" name="name">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="18" parent="9" name="juliesTablecol">
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <key id="19" parent="9" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="20" parent="10" name="N">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="21" parent="10" name="M">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="22" parent="10" name="O">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="23" parent="11" name="id_product">
+      <mandatory>1</mandatory>
+      <data-type>int(10)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="24" parent="11" name="price">
+      <data-type>double|0</data-type>
+    </column>
+    <column id="25" parent="11" name="volume">
+      <data-type>double|0</data-type>
+    </column>
+    <column id="26" parent="11" name="quantity">
+      <data-type>int(32)|0</data-type>
+    </column>
+    <column id="27" parent="11" name="for_sale">
+      <mandatory>1</mandatory>
+      <data-type>char(1)|0</data-type>
+    </column>
+    <column id="28" parent="11" name="sparkly">
+      <data-type>char(1)|0</data-type>
+    </column>
+    <column id="29" parent="11" name="name_product">
+      <mandatory>1</mandatory>
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="30" parent="11" name="color">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="31" parent="11" name="grape">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="32" parent="11" name="origin_country">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="33" parent="11" name="origin_area">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="34" parent="11" name="production_year">
+      <data-type>int(4)|0</data-type>
+    </column>
+    <column id="35" parent="11" name="production_date">
+      <data-type>date|0</data-type>
+    </column>
+    <column id="36" parent="11" name="description">
+      <data-type>varchar(255)|0</data-type>
+    </column>
+    <column id="37" parent="11" name="img">
+      <data-type>blob|0</data-type>
+    </column>
+    <column id="38" parent="11" name="location">
+      <mandatory>1</mandatory>
+      <data-type>int(20)|0</data-type>
+    </column>
+    <key id="39" parent="11" name="PRIMARY">
+      <columns>id_product</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>

@@ -1,0 +1,160 @@
+body {
+    background: #fff !important;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+
+/** Container that contains all of the content on the main page*/
+#content, #content2, #content3 {
+    margin-top: 10%;
+}
+
+/** Login modal */
+.custom-header {
+    background-color: #2a567b;
+    color: #fff;
+}
+
+.custom-body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: none;
+    background-color: #f3f3f3;
+
+}
+
+.modal-body {
+    background-color: #f3f3f3;
+}
+
+.custom-footer {
+    background-color: #f3f3f3;
+}
+
+.modal-dialog {
+    width: 30%;
+}
+
+.confirm-content {
+    max-width: 250px;
+}
+
+a#adminLink, a#userLink {
+    text-decoration: underline;
+}
+
+/** Login button */
+.btn-trans {
+    background-color: transparent;
+    border: 1px solid #2a567b;
+    color: #2a567b;
+}
+
+
+
+/** Contentedible boxes*/
+#title01, #title02 { margin-bottom: 10px; padding-left:10px; padding-top:1px; padding-bottom:1px;}
+#text01, #text02 { margin-bottom: 10px; padding:10px; padding-top:15px;}
+[contenteditable="true"] { outline: 1px solid #C6C6C6; box-shadow: inset 0 0 2px #C6C6C6; background-color:#fff;}
+[contenteditable="true"]:hover { outline: 1px solid #99D6FF; box-shadow: 5 5 2px #99D6FF; background-color:#fff;}
+
+/** Edit and delete buttons */
+.btn-succes
+{
+    background-color:#428bca;
+    text-decoration:none;
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-succes:hover {
+    background-color:#3573a8;
+    text-decoration:none;
+    color:white;
+
+}
+
+.btn-danger {
+    font-size:15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/** The sign in form*/
+.form-signin {
+    max-width: 380px;
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    border: none;
+    }
+
+.form-signin-heading,
+.checkbox {
+    margin-bottom: 30px;
+}
+
+.checkbox {
+    font-weight: normal;
+}
+
+.form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+@include box-sizing(border-box);
+
+
+}
+
+
+/** Text field username*/
+input[type="text"] {
+    margin-bottom: -1px;
+}
+
+/** Textfield password */
+input[type="password"] {
+    margin-bottom: 20px;
+}
+
+
+/** Logout modal */
+.confirm-box {
+    margin-left: 25%;
+}
+
+/** Nav-bar */
+.navbar-default
+.navbar-nav>
+.active>a,
+.navbar-default
+.navbar-nav>
+.active>a:hover,
+.navbar-default
+.navbar-nav>
+.active>a:focus {
+    background-color: #383a3d;
+    color: #f3f3f3;
+}
+
+
+
+
+

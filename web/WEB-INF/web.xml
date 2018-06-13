@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <welcome-file-list>
+        <welcome-file>index</welcome-file>
+    </welcome-file-list>
+
+    <!-- Product Regulation (Controller.ContentAdmin.java)-->
+    <servlet>
+        <servlet-name>productRegulation</servlet-name>
+        <servlet-class>Controller.ProductRegulation</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>productRegulation</servlet-name>
+        <url-pattern>/JSP/Controller.ProductRegulation</url-pattern>
+    </servlet-mapping>
+    <!-- User Regulation (Controller.ContentAdmin.java)-->
+    <servlet>
+        <servlet-name>userRegulation</servlet-name>
+        <servlet-class>Controller.UserRegulation</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>userRegulation</servlet-name>
+        <url-pattern>/JSP/Controller.UserRegulation</url-pattern>
+    </servlet-mapping>
+
+    <!-- User Regulation (Controller.ContentAdmin.java)-->
+    <servlet>
+        <servlet-name>WarehouseRegulation</servlet-name>
+        <servlet-class>Controller.WarehouseRegulation</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>WarehouseRegulation</servlet-name>
+        <url-pattern>/JSP/Controller.WarehouseRegulation</url-pattern>
+    </servlet-mapping>
+
+    <!-- Display Index (Controller.DisplayIndex.java)-->
+    <servlet>
+        <servlet-name>DisplayIndex</servlet-name>
+        <servlet-class>Controller.DisplayIndex</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DisplayIndex</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+
+
+    <!-- Admin login and Logout (Controller.LoginAdmin.java)-->
+    <servlet>
+        <servlet-name>loginAdmin</servlet-name>
+        <servlet-class>Controller.LoginAdmin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>loginAdmin</servlet-name>
+        <url-pattern>/Controller.LoginAdmin</url-pattern>
+    </servlet-mapping>
+
+    <!-- User login and Logout (Controller.LoginUser.java)-->
+    <servlet>
+        <servlet-name>loginUser</servlet-name>
+        <servlet-class>Controller.LoginUser</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>loginUser</servlet-name>
+        <url-pattern>/Controller.LoginUser</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
